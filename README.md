@@ -1,27 +1,27 @@
 # candleWeb
 Project is to make List of Object containting OCHL values from Tread History Rest Call
-
-CandleWeb
-  | - demo
-  |     |-- CandleWebApplication.java (@SpringBootApplication)
-  |     |-- ServletInitializer.java
-  |
-  | - Controller
-  |       |-- CandleStick.java 
-  |
-  | - DTO
-  |    |-- CandleDto.java
-  |    |-- TradeHistoryDto.java
-  |
-  | - Service
-        |-- CandleValues.java
-        |-- CandleService.java
-  
-  
-  # Project Flow
-  URL - http://localhost:8080/candleWeb/candle/<PairName>/<Min>
-        e.g. http://localhost:8080/candleWeb/candle/B-BTC_USDT/2
-  
+<BR>
+CandleWeb <BR>
+ &nbsp;   | - demo<BR>
+ &nbsp;   | &nbsp;  &nbsp;  &nbsp;  &nbsp;      |-- CandleWebApplication.java (@SpringBootApplication)<BR>
+ &nbsp;   | &nbsp;   &nbsp;  &nbsp;  &nbsp;     |-- ServletInitializer.java<BR>
+ &nbsp;   |<BR>
+ &nbsp;   | - Controller<BR>
+ &nbsp;   | &nbsp;  &nbsp;  &nbsp;  &nbsp;        |-- CandleStick.java <BR>
+ &nbsp;   |<BR>
+ &nbsp;   | - DTO<BR>
+ &nbsp;   | &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;     |-- CandleDto.java<BR>
+ &nbsp;   | &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;      |-- TradeHistoryDto.java<BR>
+ &nbsp;   |<BR>
+ &nbsp;   | - Service<BR>
+ &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;         |-- CandleValues.java<BR>
+ &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;          |-- CandleService.java<BR>
+  <BR>
+  <BR>
+  # Project Flow<BR>
+  URL - http://localhost:8080/candleWeb/candle/<PairName>/<Min><BR>
+        e.g. http://localhost:8080/candleWeb/candle/B-BTC_USDT/2<BR>
+  <BR>
   
   # Code Flow
   1. URL hits controller where Pair and Min. passed as input params to Service Call.
