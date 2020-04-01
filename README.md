@@ -1,5 +1,12 @@
 # candleWeb
 Project is to make List of Object containting OCHL values from Tread History Rest Call
+
+# Project Setup
+1. Import as Maven project.
+2. Don't run Java file. 
+3. Right click on project folder 1st folder "candle"
+4. Run As -> Spring boot App
+
 <BR>
 CandleWeb <BR>
  &nbsp;   | - demo<BR>
