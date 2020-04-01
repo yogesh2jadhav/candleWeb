@@ -44,5 +44,5 @@ CandleWeb <BR>
   6. Step 5 will give one Candle stick value for one set of min.<BR>
   7. Array is getting created of Candle stick.<BR><BR>
   
-  Expected Fronend should make this rest call per 1min/ 15 min<BR>
+  Expected Fronend should make this rest call per 1min/ 15 min / etc<BR>
   
